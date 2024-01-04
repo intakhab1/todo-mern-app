@@ -18,7 +18,7 @@ app.use(
 
 // import All routes 
 const routes = require("./routes/ToDoRoutes");
-app.use("/api", routes);
+app.use("/api/v1", routes);
 
 // Now start server
 app.listen(PORT , () => {
